@@ -1,0 +1,7 @@
+
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/u1663928/public_html/materi_kuliah
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
